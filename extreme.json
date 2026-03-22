@@ -561,23 +561,6 @@
    ]
 },
 {
-   "intent":"abusive3",
-   "phrases":[
-      "teri maa ki chut",
-      "bhen ki lodi",
-      "tu randi chinar",
-      "rand",
-      "teri chut fardd dunga"
-   ],
-   "replies":[
-      "kuy teri maa ki land hai kiya",
-      "tu bhen ka loda",
-      "tu randwa chinar",
-      "tera baap rand",
-      "tera land kaat dungi"
-   ]
-},
-{
    "intent":"abusive4",
    "phrases":[
       "and band ka tola",
