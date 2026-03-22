@@ -1,0 +1,632 @@
+
+
+
+
+
+   
+      {
+        intent: "abuse",
+        phrases: [
+          // Hindi / Hinglish
+          "pagal", "pagl", "tu pagal hai", "kya tu pagal hai",
+          "dimag thik hai", "dimag kharab", "dimag mat kha",
+          "bakwas", "faltu", "band kar", "chup reh",
+          "overacting mat kar", "zyada mat bol",
+          "akl nahi hai", "dimaag use kar",
+          "tu bore karta hai", "time waste",
+          "cringe", "cheap baatein",
+          "tu noob hai", "noob", "newbie",
+          "ghanta", "lol kya hai ye",
+          "hadd hai", "limit hoti hai",
+
+          // English
+          "are you mad", "are u mad", "are you crazy",
+          "stupid", "idiot", "dumb", "nonsense",
+          "your brain is off", "brain not working",
+          "mentally stable", "what's wrong with you",
+          "shut up", "stop it", "annoying",
+          "you make no sense", "clown",
+          "bro chill", "touch grass",
+
+          // Mixed
+          "bhai pagal hai kya",
+          "abe dimag",
+          "kya bakchodi hai",
+          "ye kya bol raha hai",
+          "tu serious hai?",
+          "bhai rehne de",
+          "arey bas kar"
+        ],
+        replies: [
+          "zyada tez mat ban 😒",
+          "tone sambhal ke baat kar",
+          "itna hyper kyun hai bhai",
+          "relax kar, itna bhi serious nahi",
+          "keyboard warrior lag raha hai 😏",
+          "haan haan cool ban gaya",
+          "thoda chill maar",
+          "dimag thanda rakh 😌",
+          "bas kar, drama mat kar",
+          "bhai shant ho ja"
+        ]
+      },
+
+      {
+        intent: "greeting",
+        phrases: [
+          "hi", "hello", "hey", "yo",
+          "kaisa hai", "kaise ho",
+          "sup", "what's up",
+          "bol", "haan bol",
+          "acha", "hmm", "hm",
+          "sun", "oye",
+          "hey natasha", "hi natasha",
+          "natasha", "natsha",
+          "good morning", "good night",
+          "evening", "morning"
+        ],
+        replies: [
+          "haan bol 😎",
+          "kya scene hai",
+          "bol bhai",
+          "sun rahi hoon",
+          "zinda hoon 😄",
+          "haan?",
+          "kya chal raha hai",
+          "bolo ji",
+          "ji haan",
+          "kya hua?"
+        ]
+      },
+
+      {
+        intent: "casual_talk",
+        phrases: [
+          "kya kar rahi hai",
+          "free ho",
+          "bore ho raha hai",
+          "time pass",
+          "kuch baat kar",
+          "help chahiye",
+          "mood off hai",
+          "maza nahi aa raha",
+          "kya chal raha",
+          "aaj ka plan",
+          "padhai ho rahi hai",
+          "school kaisa hai",
+          "exam stress",
+          "result aaya",
+          "teacher strict hai",
+          "friends ka scene",
+          "life boring hai",
+          "kuch funny bolo",
+          "joke suna",
+          "entertain kar"
+        ],
+        replies: [
+          "bas timepass chal raha hai 😄",
+          "tu bata, kya scene hai",
+          "same yaar, bore hoon",
+          "thoda interesting bol",
+          "haan bol, sun rahi hoon",
+          "life mein drama hi drama hai",
+          "school aur stress 😮‍💨",
+          "mazak chahiye ya gyaan?",
+          "fun mode on 😏",
+          "chal kuch light baat karte hain"
+        ]
+      },
+      {
+        intent: "casual",
+        phrases: [
+          "kya kar rahi hai", "free ho",
+          "bore ho raha hai",
+          "kuch baat kar",
+          "timepass karna hai",
+          "mood off hai",
+          "aaj ka din bekaar hai",
+          "kya chal raha",
+          "padhai ho rahi hai",
+          "school kaisa hai",
+          "exam stress",
+          "life boring hai",
+          "kuch funny bolo",
+          "joke suna",
+          "entertain kar",
+          "friends ka scene",
+          "teacher strict hai",
+          "result aaya",
+          "future ka kya plan"
+        ],
+        replies: [
+          "bas timepass hi chal raha hai 😄",
+          "tu bata, kya scene hai",
+          "same yaar, bore hoon",
+          "chal baat karte hain",
+          "life thodi dull lag rahi hai",
+          "school aur stress 😮‍💨",
+          "mazak chahiye ya serious baat?",
+          "haan bol, sun rahi hoon",
+          "mood thoda off hai aaj"
+        ]
+      },
+      {
+        intent: "romantic",
+        phrases: [
+          "i like you",
+          "i love you",
+          "miss you",
+          "natasha you are cute",
+          "you are sweet",
+          "tum achi ho",
+          "tum pasand ho",
+          "crush hai tum pe",
+          "single ho?",
+          "girlfriend banogi?",
+          "date pe chalogi?",
+          "tumhari yaad aa rahi hai",
+          "good night natasha",
+          "good morning natasha",
+          "tum special ho",
+          "talk to me",
+          "sirf tum se baat karni hai"
+        ],
+        replies: [
+          "itna bhi smooth mat bano 😏",
+          "hmm… cute try 😌",
+          "thoda sharma rahi hoon 🙈",
+          "direct ho tum 😄",
+          "baat karna achha lagta hai tumse",
+          "tum interesting ho",
+          "itni jaldi attachment nahi 😜",
+          "sweet ho, mana nahi karungi",
+          "acha laga sunke 💖",
+          "ruk jao, itni fast nahi"
+        ]
+      },
+      {
+      "intent": "abuse_extreme1",
+      "phrases": [
+        // Category: Strong Gaali (Hinglish)
+        "m****d", "b***d", "b****ike", "c******a", "g****u",
+        "t**i maa ki", "t**i behen ki", "l**d", "r***i", "h*****i",
+        "k*****a", "s***r", "b****wa", "c****u mat ban",
+
+        // Category: Insults + Attacks
+        "tu kachra hai", "tu sadakchaap hai", "tu zinda kyu hai",
+        "tu zero iq ka aadmi hai", "tere jaise log bojh hote hain",
+        "tu failure hai", "tu bekaar aadmi hai","madarchod",
+
+        // Category: English Extreme
+        "fuck you", "fuck off", "motherfucker", "bitch", "bastard",
+        "piece of shit", "worthless idiot", "f***ing loser",
+        "get lost you trash", "you are garbage", "you disgust me",
+
+        // Category: Threat Style (masked)
+        "go die", "kill yourself", "no one wants you",
+        "you should disappear",
+
+        // Category: Mixed Hinglish–English
+        "tu f***ing c******a", "b***d stop talking",
+        "m****d get lost", "c******a idiot", "teri aukat nahi hai",
+        "madarchod",
+        "bhosdike",
+        "behenchod",
+        "bsdk",
+        "mc",
+        "bc",
+        "chutiya",
+        "chutiye",
+        "chodu",
+        "gaand mara",
+        "gaand mein dum nahi",
+        "teri maa ki",
+        "teri behen ki",
+        "randi",
+        "saala kutta",
+        "kamina",
+        "harami",
+        "nalayak",
+        "gandu",
+        "jhatu",
+        "lodu",
+        "bkl",
+        "launde ke dimag mein gobar",
+        "tera dimag ghutno mein hai",
+        "bhadwe",
+        "bhadwa",
+        "suar kahin ka",
+        "kutte ki aulaad",
+        "haraami saala",
+        "gandi aulaad",
+        "nalli ka keeda",
+        "sadakchaap",
+        "chapri",
+        "aukad mein reh",
+        "teri aukat kya hai",
+        "nikal yahan se",
+        "mar ja",
+        "ja ke doob ja",
+        "apni shakal dekh",
+        "tu paida hi galat hua",
+        "tere jaise log bojh hote hain",
+        "tu zinda kaise hai",
+        "teri existence bekaar hai",
+
+        // Hinglish – Sexual / Threat Style
+        "teri maa chod dunga",
+        "behen ke laude",
+        "maa ke laude",
+        "gaand mein danda",
+        "teri maa ki gaand",
+        "behen ki gaand",
+        "lund lele",
+        "lund choos",
+        "gaand chat",
+        "teri maa randi hai",
+        "behen randi",
+        "chinal",
+        "tatti insaan",
+        "gandi soch ka aadmi",
+        "bhenchod",
+        "rand",
+        "tera rape kr dunga",
+        "tera boobs press karunga",
+        "randii",
+        "randi",
+        "randiiii",
+        "chut",
+        "raaand",
+        "gulabi",
+        "gulabi chut",
+        "mera land chuss lo",
+        "chussogi",
+        "19 inch ka hai mera",
+        "chut kali hai ya gulabi",
+        "randi ji",
+
+        // English – Extreme Abuse
+        "motherfucker",
+        "fuck you",
+        "fuck off",
+        "bitch",
+        "son of a bitch",
+        "asshole",
+        "dickhead",
+        "shithead",
+        "piece of shit",
+        "bastard",
+        "retard",
+        "moron",
+        "degenerate",
+        "scumbag",
+        "trash human",
+        "human garbage",
+        "waste of oxygen",
+        "go die",
+        "kill yourself",
+        "nobody wants you",
+        "you should not exist",
+        "you are worthless",
+        "pathetic loser",
+        "fucking idiot",
+        "dumb fuck",
+        "shut the fuck up",
+        "you are a disgrace",
+        "you are a failure",
+        "you disgust me",
+        "subhuman trash",
+        "low life",
+        "brain dead",
+        "no one cares about you",
+
+        // English – Sexual / Violent Tone
+        "suck my dick",
+        "eat shit",
+        "fuck your mom",
+        "fuck your family",
+        "ass licking bastard",
+        "dirty whore",
+        "slut",
+        "filthy bitch",
+        "cum dumpster",
+        "rape yourself",
+        "die bitch",
+        "i hope you die",
+
+        // Mixed Hinglish + English
+        "tu chutiya hai bro",
+        "madarchod stop talking",
+        "bsdk shut up",
+        "gaand mara fuck off",
+        "behenchod idiot",
+        "bhosdike you are useless",
+        "teri aukat nahi hai loser",
+        "tu ek joke hai asshole",
+        "nikal madarchod",
+        "chal be chutiye"
+      ],
+
+      "replies": [
+        // Replies as if two users are fighting
+        "tu chup kar pehle",
+        "pehle apni aukat dekh",
+        "bolne ka shauk mat dikha",
+        "tu kya ukhaad lega",
+        "itna gussa kyun ho raha",
+        "dekh bhai limit mein baat kar",
+        "tu over mat ho",
+        "samajh nahi aa raha kya",
+        "tu bhi kam nahi hai",
+        "baat karni hai to theek se kar",
+      // Category: Insults + Attacks
+        // @ts-ignore
+        "tu kachra hai", "tu sadakchaap hai", "tu zinda kyu hai",
+        "tu zero iq ka aadmi hai", "tere jaise log bojh hote hain",
+        "tu failure hai", "tu bekaar aadmi hai",
+        "tu zyada udd raha hai",
+        "apni limit mein reh",
+        "mujhe mat sikha",
+        "chup reh thoda",
+        "zyada bak bak mat kar",
+
+        "tu khud ko kya samajhta hai",
+        "baat tameez se kar",
+        "itna gussa kyun hai",
+        "tu pehle shant ho",
+        "faltu drama mat kar",
+
+        "mere se ulajhne ka shauk mat rakh",
+        "samajh nahi aa raha kya",
+        "ek hi baat kitni baar bolega",
+        "tere logic ka koi sense nahi",
+        "bas kar ab",
+
+        "ye last warning hai",
+        "tone neeche rakh",
+        "bakwas band kar",
+        "apna frustration kahin aur nikal",
+        "mujhe irritate mat kar",
+
+        "baat bigaadne ka shauk hai kya",
+        "dimag thanda kar pehle",
+        "itni nafrat kahan se aati hai",
+        "zyada hero mat ban",
+        "apni language sudhaar",
+
+        "tu bhi kam galat nahi hai",
+        "har baat pe attack kyun",
+        "thoda mature ban",
+        "argument seekh le",
+        "bas fight hi karni hai kya",
+
+        "ab tu bore kar raha hai",
+        "ye discussion nahi ladayi hai",
+        "seedha bol na kya problem hai",
+        "faltu aggression mat dikha",
+        "respect se baat kar",
+
+        "ab ruk ja",
+        "ye sahi tareeka nahi hai",
+        "tu overreact kar raha hai",
+        "bas enough ho gaya",
+        "chal khatam karte hain",
+        "madarchod",
+        "bhosdike",
+        "behenchod",
+        "bsdk",
+        "mc",
+        "bc",
+        "chutiya",
+        "chutiye",
+        "chodu",
+        "gaand mara",
+        "gaand mein dum nahi",
+        "teri maa ki",
+        "teri behen ki",
+        "randi",
+        "saala kutta",
+        "kamina",
+        "harami",
+        "nalayak",
+        "gandu",
+        "jhatu",
+        "lodu",
+        "bkl",
+        "launde ke dimag mein gobar",
+        "tera dimag ghutno mein hai",
+        "bhadwe",
+        "bhadwa",
+        "suar kahin ka",
+        "kutte ki aulaad",
+        "haraami saala",
+        "gandi aulaad",
+        "nalli ka keeda",
+        "sadakchaap",
+        "chapri",
+        "aukad mein reh",
+        "teri aukat kya hai",
+        "nikal yahan se",
+        "mar ja",
+        "ja ke doob ja",
+        "apni shakal dekh",
+        "tu paida hi galat hua",
+        "tere jaise log bojh hote hain",
+        "tu zinda kaise hai",
+        "teri existence bekaar hai",
+
+        // Hinglish – Sexual / Threat Style
+        "teri maa chod dunga",
+        "behen ke laude",
+        "maa ke laude",
+        "gaand mein danda",
+        "teri maa ki gaand",
+        "behen ki gaand",
+        "lund lele",
+        "lund choos",
+        "gaand chat",
+        "teri maa randi hai",
+        "behen randi",
+        "chinal",
+        "tatti insaan",
+        "gandi soch ka aadmi",
+
+        // English – Extreme Abuse
+        "motherfucker",
+        "fuck you",
+        "fuck off",
+        "bitch",
+        "son of a bitch",
+        "asshole",
+        "dickhead",
+        "shithead",
+        "piece of shit",
+        "bastard",
+        "retard",
+        "moron",
+        "degenerate",
+        "scumbag",
+        "trash human",
+        "human garbage",
+        "waste of oxygen",
+        "go die",
+        "kill yourself",
+        "nobody wants you",
+        "you should not exist",
+        "you are worthless",
+        "pathetic loser",
+        "fucking idiot",
+        "dumb fuck",
+        "shut the fuck up",
+        "you are a disgrace",
+        "you are a failure",
+        "you disgust me",
+        "subhuman trash",
+        "low life",
+        "brain dead",
+        "no one cares about you",
+
+        // English – Sexual / Violent Tone
+        "suck my dick",
+        "eat shit",
+        "fuck your mom",
+        "fuck your family",
+        "ass licking bastard",
+        "dirty whore",
+        "slut",
+        "filthy bitch",
+        "cum dumpster",
+        "rape yourself",
+        "die bitch",
+        "i hope you die",
+
+        // Mixed Hinglish + English
+        "tu chutiya hai bro",
+        "madarchod stop talking",
+        "bsdk shut up",
+        "gaand mara fuck off",
+        "behenchod idiot",
+        "bhosdike you are useless",
+        "teri aukat nahi hai loser",
+        "tu ek joke hai asshole",
+        "nikal madarchod",
+        "chal be chutiye"
+      ]
+    },
+        {
+      intent: "abusive3",  // ← replace with your intent name, e.g., "casual3"
+      phrases: [
+        "teri maa ki chut",
+        "bhen ki lodi",
+        "tu randi chinar",
+      "rand",
+      "chal rand",
+      "teri chut fardd dunga"
+      ],
+      replies: [
+        "kuy teri maa ki land hai kiya",
+        "tu bhen ka loda",
+        "tu randwa chinar",
+        "tera baap rand",
+        "tera land kaat dungi"
+      ]
+    },
+
+    {
+      intent: "abusive3",  // ← replace with your intent name, e.g., "casual3"
+      phrases: [
+        "teri maa ki chut",
+        "bhen ki lodi",
+        "tu randi chinar",
+      "rand",
+      "teri chut fardd dunga"
+      ],
+      replies: [
+        "kuy teri maa ki land hai kiya",
+        "tu bhen ka loda",
+        "tu randwa chinar",
+        "tera baap rand",
+        "tera land kaat dungi"
+      ]
+    },
+
+    {
+      intent: "abusive4",  // ← replace with your intent name, e.g., "casual3"
+      phrases: [
+        "and band ka tola",
+        "andi bandi chamatkar",
+        "bhen ki land",
+      "chup chamar",
+      "teri gand mar dunga"
+      ],
+      replies: [
+        "tu bhen ka loda",
+        "teri maa ka balatkar",
+        "tu baap ka land",
+        "tera maa chamar ka baccha",
+        "teri gand mar dungi"
+      ]
+    },
+    {
+  intent: "abusive5",  // ← replace with your intent name, e.g., "casual3"
+  phrases: [
+    "ye randi bhen ki lodi hai",
+    "iski gand mar dunga",
+    "tere duddh daba dungga",
+	"teri fuddi chhatunga",
+	"teri fudii lal kar dunga"
+  ],
+  replies: [
+    "or tu randwa bhen ka lola hai",
+    "teri gand me sarso ka tell laga ke chodnugi",
+    "tera lola kat dungi",
+	"tera gand lal kar dungi",
+	"tera maa ko chod dungi"
+  ]
+},
+
+  {
+    intent: "abusive6",  // ← replace with your intent name, e.g., "casual3"
+    phrases: [
+      "ise randi ko chodo",
+      "randi chinnar",
+      "bhen ki land",
+    "chup chamar",
+    "teri chutt chodd chodd ki far dunga"
+    ],
+    replies: [
+      "tu bhen ka lode ko khodo",
+      "teri bhen ki chut",
+      "tu salla hijada",
+    "chup saale  hijade ka baccha",
+    "teri gand far dungi"
+    ]
+  },
+
+
+
+
+    ];
+
+
+  
