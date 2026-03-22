@@ -397,8 +397,7 @@
       "samajh nahi aa raha kya",
       "tu bhi kam nahi hai",
       "baat karni hai to theek se kar",
-      :"Insults + Attacks
-        // @ts-ignore""tu kachra hai",
+     
       "tu sadakchaap hai",
       "tu zinda kyu hai",
       "tu zero iq ka aadmi hai",
@@ -561,9 +560,7 @@
 },
 {
    "intent":"abusive3",
-   ,
-   "e.g.",
-   "casual3""phrases":[
+   "phrases":[
       "teri maa ki chut",
       "bhen ki lodi",
       "tu randi chinar",
@@ -581,9 +578,7 @@
 },
 {
    "intent":"abusive3",
-   ,
-   "e.g.",
-   "casual3""phrases":[
+   "phrases":[
       "teri maa ki chut",
       "bhen ki lodi",
       "tu randi chinar",
@@ -600,9 +595,7 @@
 },
 {
    "intent":"abusive4",
-   ,
-   "e.g.",
-   "casual3""phrases":[
+   "phrases":[
       "and band ka tola",
       "andi bandi chamatkar",
       "bhen ki land",
@@ -619,9 +612,7 @@
 },
 {
    "intent":"abusive5",
-   ,
-   "e.g.",
-   "casual3""phrases":[
+   "phrases":[
       "ye randi bhen ki lodi hai",
       "iski gand mar dunga",
       "tere duddh daba dungga",
@@ -638,9 +629,7 @@
 },
 {
    "intent":"abusive6",
-   ,
-   "e.g.",
-   "casual3""phrases":[
+   "phrases":[
       "ise randi ko chodo",
       "randi chinnar",
       "bhen ki land",
@@ -655,4 +644,4 @@
       "teri gand far dungi"
    ]
 }
-]";"
+]
