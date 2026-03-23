@@ -132,7 +132,18 @@
       "life boring hai",
       "kuch funny bolo",
       "joke suna",
-      "entertain kar"
+      "entertain kar",
+      "kya kar rahi hai",
+      "free ho",
+      "bore ho raha hai",
+      "time pass",
+      "mood off hai",
+      "life boring hai",
+      "kuch baat kar",
+      "joke suna",
+      "entertain kar",
+      "school kaisa hai",
+      "exam stress"
    ],
    "replies":[
       "bas timepass chal raha hai 😄",
@@ -144,7 +155,12 @@
       "school aur stress 😮‍💨",
       "mazak chahiye ya gyaan?",
       "fun mode on 😏",
-      "chal kuch light baat karte hain"
+      "chal kuch light baat karte hain",
+      "bas timepass chal raha hai 😄",
+      "tu bata kya scene hai",
+      "same yaar bore hoon",
+      "chal baat karte hain",
+      "mazak chahiye ya serious?"
    ]
 },
 {
@@ -629,47 +645,6 @@
       "teri gand far dungi"
    ]
 },
-
-  {
-    "intent": "casual_talk3",
-    "phrases": [
-      "kya kar rahi hai",
-      "free ho",
-      "bore ho raha hai",
-      "time pass",
-      "mood off hai",
-      "life boring hai",
-      "kuch baat kar",
-      "joke suna",
-      "entertain kar",
-      "school kaisa hai",
-      "exam stress"
-    ],
-    "replies": [
-      "bas timepass chal raha hai 😄",
-      "tu bata kya scene hai",
-      "same yaar bore hoon",
-      "chal baat karte hain",
-      "mazak chahiye ya serious?"
-    ]
-  },
-
-  {
-    "intent": "abuse_mild",
-    "phrases": [
-      "pagal", "idiot", "stupid",
-      "dimag kharab", "bakwas",
-      "chup reh", "annoying",
-      "you make no sense"
-    ],
-    "replies": [
-      "zyada tez mat ban 😒",
-      "tone sambhal ke baat kar",
-      "chill maar thoda",
-      "itna hyper kyun hai",
-      "relax kar"
-    ]
-  },
 
   {
     "intent": "abuse_strong",
