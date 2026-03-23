@@ -214,6 +214,20 @@
    ]
 },
 {
+   "intent":"sexism",
+   "phrases":[
+      "fuddi chatu apki",
+      "send nudes",
+      "dudhh pila do"
+    
+   ],
+   "replies":[
+      "hmm chhat lo",
+      "abhi nhi baad me",
+      "pe lo baccha",
+   ]
+},   
+{
    "intent":"abuse_extreme1",
    "phrases":[
       "tu kachra hai",
